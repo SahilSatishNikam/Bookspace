@@ -5,9 +5,134 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Page</title>
     <link href="css/bookspace.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/booklist.css">
+
 </head>
 <body>
+        <!--  Navbar Start -->
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container">
+      
+      <!-- Brand (Logo + Name) -->
+      <a class="navbar-brand d-flex align-items-center fw-bold" href="#">
+        <img src="images/booklogo.jpeg" alt="Logo" width="35" height="30" class="me-2">
+        Book Space
+      </a>
+
+    
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" 
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Menu Items -->
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-3"> <!-- ms-3 adds small spacing after logo -->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="authorsDropdown" 
+               role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Authors
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="authorsDropdown">
+              <li><a class="dropdown-item" href="rowling.html">J.K. Rowling</a></li>
+              <li><a class="dropdown-item" href="tolkien.html">J.R.R. Tolkien</a></li>
+              <li><a class="dropdown-item" href="shakespeare.html">William Shakespeare</a></li>
+              <li><a class="dropdown-item" href="hemingway.html">Ernest Hemingway</a></li>
+              <li><a class="dropdown-item" href="austen.html">Jane Austen</a></li>
+              <li><a class="dropdown-item" href="dickens.html">Charles Dickens</a></li>
+              <li><a class="dropdown-item" href="orwell.html">George Orwell</a></li>
+              <li><a class="dropdown-item" href="twain.html">Mark Twain</a></li>
+              <li><a class="dropdown-item" href="tolstoy.html">Leo Tolstoy</a></li>
+              <li><a class="dropdown-item" href="dostoevsky.html">Fyodor Dostoevsky</a></li>
+              <li><a class="dropdown-item" href="christie.html">Agatha Christie</a></li>
+              <li><a class="dropdown-item" href="tagore.html">Rabindranath Tagore</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="books.html">Books</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+</header>
+<!-- Navbar End -->
     
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
+
+
+
+<!--  Footer start-->
+<footer class="bg-dark text-light pt-5 pb-3 mt-5">
+  <div class="container">
+    <div class="row">
+
+      <!-- About Section -->
+      <div class="col-md-4 mb-4">
+        <h5 class="fw-bold">Book Space</h5>
+        <p class="small">
+          Your ultimate destination to explore, read, and connect with the world of books.
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">Quick Links</h6>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="text-light text-decoration-none small">Home</a></li>
+          <li><a href="about.html" class="text-light text-decoration-none small">About Us</a></li>
+          <li><a href="books.html" class="text-light text-decoration-none small">Books</a></li>
+          <li><a href="contact.html" class="text-light text-decoration-none small">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Support -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">Support</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-light text-decoration-none small">FAQs</a></li>
+          <li><a href="#" class="text-light text-decoration-none small">Help Center</a></li>
+          <li><a href="#" class="text-light text-decoration-none small">Terms & Conditions</a></li>
+          <li><a href="#" class="text-light text-decoration-none small">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">Contact Us</h6>
+        <p class="small mb-1"><i class="bi bi-geo-alt-fill me-2"></i> Pune, India</p>
+        <p class="small mb-1"><i class="bi bi-telephone-fill me-2"></i> +91 7666283439</p>
+        <p class="small"><i class="bi bi-envelope-fill me-2"></i> rushirasal2679@gmail.com</p>
+        
+        <!-- Social Icons -->
+        <div class="mt-2">
+          <a href="#" class="text-light me-3"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="text-light me-3"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="text-light"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center border-top border-secondary pt-3">
+      <p class="small mb-0">© 2025 Book Space. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Footer End -->
 </html>
