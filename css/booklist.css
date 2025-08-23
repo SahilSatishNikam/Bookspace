@@ -40,14 +40,3 @@
     text-decoration: none;  /* Remove underline */
     color: inherit;         /* Use normal text color */
 }
-
-.nav-link:hover{
-    background-color: rgb(115, 116, 147);
-    border-radius: 80%;
-
-}
-
-.nav-link{
-    margin-left: 10px;
-    margin-right: 10px;
-}
