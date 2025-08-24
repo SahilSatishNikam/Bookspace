@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/bookspace.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/booklist.css">
+
+  </head>
+  <body>
+    <!--  Navbar Start -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <div class="container">
+
+          <!-- Brand (Logo + Name) -->
+          <a class="navbar-brand d-flex align-items-center fw-bold" href="#">
+            <img src="images/booklogo.jpeg" alt="Logo" width="35" height="30"
+              class="me-2">
+            Book Space
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Menu Items -->
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-3">
+              <!-- ms-3 adds small spacing after logo -->
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page"
+                  href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#"
+                  id="authorsDropdown"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Authors
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="authorsDropdown">
+                  <li><a class="dropdown-item" href="rowling.html">J.K.
+                      Rowling</a></li>
+                  <li><a class="dropdown-item" href="tolkien.html">J.R.R.
+                      Tolkien</a></li>
+                  <li><a class="dropdown-item" href="shakespeare.html">William
+                      Shakespeare</a></li>
+                  <li><a class="dropdown-item" href="hemingway.html">Ernest
+                      Hemingway</a></li>
+                  <li><a class="dropdown-item" href="austen.html">Jane
+                      Austen</a></li>
+                  <li><a class="dropdown-item" href="dickens.html">Charles
+                      Dickens</a></li>
+                  <li><a class="dropdown-item" href="orwell.html">George
+                      Orwell</a></li>
+                  <li><a class="dropdown-item" href="twain.html">Mark
+                      Twain</a></li>
+                  <li><a class="dropdown-item" href="tolstoy.html">Leo
+                      Tolstoy</a></li>
+                  <li><a class="dropdown-item" href="dostoevsky.html">Fyodor
+                      Dostoevsky</a></li>
+                  <li><a class="dropdown-item" href="christie.html">Agatha
+                      Christie</a></li>
+                  <li><a class="dropdown-item" href="tagore.html">Rabindranath
+                      Tagore</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="books.html">Books</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="FAQ's.html">FAQ's</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6  border border-success p-2 border-opacity-75">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="images/bravenewworld.jpg" class="img-fluid " />
+                </div>
+                <div class="col-md-6 mt-5">
+                  <h3>Brave New World</h3>
+                  Brave New World warns about the dangers of sacrificing
+                  freedom, individuality, and meaning in exchange for comfort,
+                  control, and pleasure. It explores how a society obsessed with
+                  happiness and stability can become emotionally and spiritually
+                  empty.
+                  <button type="button" class="btn btn-primary mt-5 "
+                    data-bs-toggle="modal" data-bs-target="#bravenewworld">More
+                    Info</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6  border border-success p-2 border-opacity-75">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="images/goddness.jpg" class="img-fluid " />
+                </div>
+                <div class="col-md-6 mt-5">
+                  <h3>Goddness</h3>
+                  In Goddess by Josephine Angelini, Helen Hamilton must stop the
+                  Olympian gods from destroying the world after accidentally
+                  setting them free.As her powers grow, she uncovers secrets
+                  about her past lives and a traitor among her friends.Caught
+                  between love and duty, Helen faces a final battle that will
+                  decide the fate of gods or mortals alike.
+                  <button
+                    type="button" class="btn btn-primary mt-5"
+                    data-bs-toggle="modal" data-bs-target="#goddess">More
+                    Info</button>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 mt-5  border border-success p-2 border-opacity-75">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="images/romeoandjuliet.jpg" class="img-fluid " />
+                </div>
+                <div class="col-md-6 mt-5">
+                  <h3>Romeo And Juliet</h3>
+                  Romeo and Juliet is a tragic play about two young lovers—Romeo
+                  from the Montague family and Juliet from the Capulet family.heir families are enemies, but Romeo and Juliet fall in
+                  love at first sight and secretly get married.
+                  <button type="button" class="btn btn-primary mt-5"
+                    data-bs-toggle="modal" data-bs-target="#romeoandjuliet">More Info</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Modal1 -->
+    <div class="modal fade" id="bravenewworld" tabindex="-1"
+      aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Brave New
+              World</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body bg-primary-subtle">
+            <div class="row border border-success p-2 border-opacity-75">
+              <div class="col-md-6 mt-3">
+                <img src="images/bravenewworld.jpg" class="img-fluid " />
+              </div>
+              <div class="col-md-6 mt-5">
+                <h4>Brave New World</h4>
+                <h6>Author:</h6> Aldous Huxley.
+                <h6>Published:</h6> 1932.
+                <h6>Genre:</h4> Dystopian, science fiction, social commentary.
+                <h6>Setting:</h6> London and a "Savage Reservation," in the
+                World State,
+                circa the year 2540 AD (or AF 632, "After Ford").
+              </div>
+            </div>
+            <p class="mt-2">
+              Set in a futuristic world ruled by a powerful global government
+              called the World State, society is built on the principles of
+              stability, uniformity, and pleasure. Natural birth, families, and
+              individuality have been eliminated. Instead, humans are
+              genetically engineered and conditioned from birth into strict
+              social castes (Alpha to Epsilon) designed for specific roles.
+
+              People live lives filled with instant gratification, encouraged to
+              consume endlessly and avoid discomfort. To suppress negative
+              emotions, they use a drug called soma, which ensures people remain
+              content and unquestioning.
+
+              The story follows Bernard Marx, an Alpha who feels alienated and
+              dissatisfied with the shallow pleasures of society. He travels to
+              a Savage Reservation with Lenina Crowne, a conformist Beta. There,
+              they meet John, a man born naturally and raised outside the World
+              State, with traditional human values and knowledge of Shakespeare.
+
+              When Bernard brings John back to the World State, he becomes a
+              sensation — the “Savage” everyone wants to see. But John is
+              horrified by the lack of meaning, love, and individuality in this
+              seemingly perfect society. He struggles to find a place in this
+              world, ultimately leading to a tragic end.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary"
+              data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal2 -->
+    <div class="modal fade" id="goddess" tabindex="-1"
+      aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body  bg-primary-subtle">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="images/goddness.jpg" class="img-fluid " />
+
+              </div>
+              <div class="col-md-6">
+                Author: Josephine Angelini, an American writer known for modern
+                fantasy steeped in Greek myth
+
+                Release Date: May 28, 2013 (paperback)
+
+                Format: About 432-464 pages depending on edition
+                Publisher: HarperTeen in the U.S.; also released by Pan
+                Macmillan under Macmillan Children's Books imprint
+
+              </div>
+            </div>
+            In <b>Goddess</b> by Josephine Angelini, the final book in the
+            *Starcrossed* trilogy, Helen Hamilton must embrace her growing
+            powers and uncover the truth about her past lives to stop the
+            Olympian gods—recently freed from their prison—from waging war on
+            humanity. As her memories resurface and her destiny becomes clearer,
+            Helen faces betrayal from within her inner circle, the unraveling of
+            long-held lies, and a heart-wrenching love triangle between Lucas
+            and Orion. With the fate of the world hanging in the balance, she
+            must make an impossible choice between love and duty in a
+            high-stakes battle that will determine the future of both gods and
+            mortals.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary"
+              data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal2 -->
+    <div class="modal fade" id="romeoandjuliet" tabindex="-1"
+      aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body  bg-primary-subtle">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="images/romeoandjuliet.jpg" class="img-fluid " />
+
+              </div>
+              <div class="col-md-6">
+                Title: Romeo and Juliet
+
+                Author: William Shakespeare
+
+                Written: Around 1595
+
+                Genre: Tragedy
+
+                Setting: Verona, Italy
+
+              </div>
+            </div>
+            In <b>Romeo And Juliet</b> by Josephine Angelini, the final book in
+            the *Starcrossed* trilogy, Helen Hamilton must embrace her growing
+            powers and uncover the truth about her past lives to stop the
+            Olympian gods—recently freed from their prison—from waging war on
+            humanity. As her memories resurface and her destiny becomes clearer,
+            Helen faces betrayal from within her inner circle, the unraveling of
+            long-held lies, and a heart-wrenching love triangle between Lucas
+            and Orion. With the fate of the world hanging in the balance, she
+            must make an impossible choice between love and duty in a
+            high-stakes battle that will determine the future of both gods and
+            mortals.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary"
+              data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+  <!--  Footer start-->
+  <footer class="bg-dark text-light pt-5 pb-3 mt-5">
+    <div class="container">
+      <div class="row">
+
+        <!-- About Section -->
+        <div class="col-md-4 mb-4">
+          <h5 class="fw-bold">Book Space</h5>
+          <p class="small">
+            Your ultimate destination to explore, read, and connect with the
+            world of books.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-md-2 mb-4">
+          <h6 class="fw-bold">Quick Links</h6>
+          <ul class="list-unstyled">
+            <li><a href="index.html"
+                class="text-light text-decoration-none small">Home</a></li>
+            <li><a href="about.html"
+                class="text-light text-decoration-none small">About Us</a></li>
+            <li><a href="books.html"
+                class="text-light text-decoration-none small">Books</a></li>
+            <li><a href="contact.html"
+                class="text-light text-decoration-none small">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Support -->
+        <div class="col-md-3 mb-4">
+          <h6 class="fw-bold">Support</h6>
+          <ul class="list-unstyled">
+            <li><a href="#"
+                class="text-light text-decoration-none small">FAQs</a></li>
+            <li><a href="#" class="text-light text-decoration-none small">Help
+                Center</a></li>
+            <li><a href="#" class="text-light text-decoration-none small">Terms
+                & Conditions</a></li>
+            <li><a href="#"
+                class="text-light text-decoration-none small">Privacy
+                Policy</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="col-md-3 mb-4">
+          <h6 class="fw-bold">Contact Us</h6>
+          <p class="small mb-1"><i class="bi bi-geo-alt-fill me-2"></i> Pune,
+            India</p>
+          <p class="small mb-1"><i class="bi bi-telephone-fill me-2"></i> +91
+            7666283439</p>
+          <p class="small"><i class="bi bi-envelope-fill me-2"></i>
+            rushirasal2679@gmail.com</p>
+
+          <!-- Social Icons -->
+          <div class="mt-2">
+            <a href="#" class="text-light me-3"><i
+                class="bi bi-twitter"></i></a>
+            <a href="#" class="text-light me-3"><i
+                class="bi bi-instagram"></i></a>
+            <a href="#" class="text-light"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Copyright -->
+      <div class="text-center border-top border-secondary pt-3">
+        <p class="small mb-0">© 2025 Book Space. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Footer End -->
+</html>
