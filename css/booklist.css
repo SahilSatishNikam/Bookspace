@@ -26,9 +26,9 @@
 }
 
 .book-list li:hover{
-    height: 330px ;
+    height: 390px ;
     transition: transform 0.5s ease;
-     transform: scale(1.1);
+     transform: scale(1.05);
 }
 .book-list h1 {
     font-size: 20px;
@@ -41,7 +41,10 @@
     color: inherit;         /* Use normal text color */
 }
 
-
+.book-list p {
+  color: #007185;
+  padding-top: 5px;
+}
 
 /* Footer */
     footer {
@@ -78,4 +81,16 @@
     }
     .carousel-caption p {
       font-size: 1.1rem;
+    }
+
+    .navbar{
+      background-color: #c1cfd3 !important;
+      width: 100%;
+    }
+    body{
+      background-color: #e3e7e9 !important;
+    }
+
+    .nav-link:hover{
+      font-weight: 700;
     }
