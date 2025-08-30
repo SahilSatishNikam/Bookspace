@@ -26,9 +26,9 @@
 }
 
 .book-list li:hover{
-    height: 330px ;
+    height: 390px ;
     transition: transform 0.5s ease;
-     transform: scale(1.1);
+     transform: scale(1.05);
 }
 .book-list h1 {
     font-size: 20px;
@@ -41,13 +41,56 @@
     color: inherit;         /* Use normal text color */
 }
 
-.nav-link:hover{
-    background-color: rgb(115, 116, 147);
-    border-radius: 80%;
-
+.book-list p {
+  color: #007185;
+  padding-top: 5px;
 }
 
-.nav-link{
-    margin-left: 10px;
-    margin-right: 10px;
-}
+/* Footer */
+    footer {
+      background: #1e1e2f;
+    }
+    footer h5, footer h6 {
+      color: #ffc107;
+    }
+    footer a:hover {
+      color: #0d6efd !important;
+    }
+    footer .bi {
+      font-size: 1.2rem;
+      background: #333;
+      padding: 8px;
+      border-radius: 50%;
+      transition: 0.3s;
+    }
+    footer .bi:hover {
+      background: #0d6efd;
+      color: #fff;
+    }
+
+
+    
+    /* Slider */
+    .carousel-item img {
+      filter: brightness(70%);
+    }
+    .carousel-caption h3 {
+      font-size: 2rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+    }
+    .carousel-caption p {
+      font-size: 1.1rem;
+    }
+
+    .navbar{
+      background-color: #c1cfd3 !important;
+      width: 100%;
+    }
+    body{
+      background-color: #e3e7e9 !important;
+    }
+
+    .nav-link:hover{
+      font-weight: 700;
+    }

@@ -18,7 +18,7 @@
       
       <!-- Brand (Logo + Name) -->
       <a class="navbar-brand d-flex align-items-center fw-bold" href="#">
- <i class="fa-solid fa-book"></i>        Book Space
+           <i class="fa-solid fa-book"></i>        Book Space
       </a>
 
     
@@ -61,10 +61,11 @@
             <a class="nav-link " href="books.html">Books</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="contact.html">Contact Us</a>
+            <a class="nav-link" href="contact.html">Contact Us</a>
           </li>
+
           <li class="nav-item">
-            <a class="nav-link " href="FAQ's.html">FAQ's</a>
+            <a class="nav-link active" href="FAQ's.html">FAQ's</a>
           </li>
         </ul>
       </div>
@@ -73,75 +74,91 @@
   </nav>
 </header>
 
+        <main>
+            <section><div class="d-flex justify-content-center align-items-center min-vh-100 bg-light">
+  <div class="accordion shadow-lg rounded-3 w-75" id="faqAccordion">
 
+    <h2 class="text-center mb-4 fw-bold text-primary">📖 Frequently Asked Questions</h2>
 
-
-      <main>
-          <!-- Contact Us Section -->
-<section class="py-5">
-  <div class="container">
-    <div class="text-center mb-5">
-      <h2 class="fw-bold text-primary">Get in Touch</h2>
-      <p class="text-muted">We are an online platform. Reach us via email, chat, or social media — no physical office required!</p>
-    </div>
-
-    <div class="row g-4">
-      <!-- Contact Form -->
-      <div class="col-lg-6">
-        <div class="card shadow rounded-3">
-          <div class="card-body p-4">
-            <form>
-              <div class="mb-3">
-                <label for="name" class="form-label">Full Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email Address</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
-              </div>
-              <div class="mb-3">
-                <label for="message" class="form-label">Message</label>
-                <textarea class="form-control" id="message" rows="4" placeholder="Write your message" required></textarea>
-              </div>
-              <button type="submit" class="btn btn-dark w-100">Send Message</button>
-            </form>
-          </div>
-        </div>
-      </div>
-
-      <!-- Online Contact Info -->
-      <div class="col-lg-6">
-        <div class="p-4 bg-light rounded shadow-sm">
-          <h5 class="fw-bold mb-3">💻 Online Support</h5>
-          <p>We’re always available online to help you with your queries.</p>
-
-          <h5 class="fw-bold mt-4 mb-3">📧 Email Us</h5>
-          <p>support@bookspace.com</p>
-
-          <h5 class="fw-bold mt-4 mb-3">💬 Live Chat</h5>
-          <p>Available of our website (24/7). or see your Query in FAQ's</p>
-
-          <h5 class="fw-bold mt-4 mb-3">🌐 Follow Us</h5>
-          <p>
-          <a href="https://www.instagram.com/rushya19_/" target="_blank" class="text-dark me-3">
-    <i class="bi bi-instagram"></i> Instagram
-  </a><br>
-  
-  <a href="https://github.com/DineshRasal" target="_blank" class="text-dark me-3">
-    <i class="bi bi-github"></i> GitHub
-  </a><br>
-  
-  <a href="https://www.linkedin.com/in/dinesh-rasal-973481284/" target="_blank" class="text-dark me-3">
-    <i class="bi bi-linkedin"></i> LinkedIn
-  </a>
-          </p>
+    <!-- FAQ 1 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+          1. What is Book Space?
+        </button>
+      </h2>
+      <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Book Space is your digital library where readers can explore, buy, and share books online.
         </div>
       </div>
     </div>
+
+    <!-- FAQ 2 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+          2. How do I search for books?
+        </button>
+      </h2>
+      <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          You can search book by title, author on home page or navbar.
+        </div>
+      </div>
+    </div>
+
+
+   
+
+    <!-- FAQ 5 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFive">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+          3. Is Book Space free to use?
+        </button>
+      </h2>
+      <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Yes, many books are free to read. Some premium titles may require purchase.
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ 6 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingSix">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
+          4. Can I read books on mobile?
+        </button>
+      </h2>
+      <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Yes, Book Space is fully responsive and works smoothly on mobile, tablet, and desktop devices.
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ 7 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingSeven">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7">
+          5. How do I contact support?
+        </button>
+      </h2>
+      <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          You can reach our support team anytime via the Contact Us page or by email at <b>support@bookspace.com</b>.
+          contactNo:-7666283439 If you have any query you can Call on this Number Too..
+        </div>
+      </div>
+    </div>
+
   </div>
-        </section>
-      </main>
+</div>
 
+            </section>
+        </main>
 
     <script src="js/bootstrap.bundle.min.js"></script>
 
