@@ -1,4 +1,8 @@
 
+ body{
+      background-color: #e3e7e9 !important;
+    }
+    
 /* book Lists */
 
 .book-list {
@@ -13,7 +17,6 @@
 .book-list li {
     background: white;
     padding: 10px;
-    border-radius: 8px;
     box-shadow: 4px 15px 15px rgba(20, 19, 19, 0.2);
     width: 240px;           /* Fixed width for all boxes */
     text-align: center;
@@ -21,7 +24,7 @@
 
 .book-list img {
     width: 100%;            /* Image fills box */
-    height: 290px;          /* Same height for all */
+    height: 280px;          /* Same height for all */
     border-radius: 6px;
 }
 
@@ -68,9 +71,18 @@
       color: #fff;
     }
 
+/* Navbar */
+ .navbar{
+      background-color: #c1cfd3 !important;
+      width: 100%;
+    }
 
-    
-    /* Slider */
+.nav-link:hover{
+      font-weight: 700;
+    }
+
+
+/* Slider */
     .carousel-item img {
       filter: brightness(70%);
     }
@@ -83,14 +95,5 @@
       font-size: 1.1rem;
     }
 
-    .navbar{
-      background-color: #c1cfd3 !important;
-      width: 100%;
-    }
-    body{
-      background-color: #e3e7e9 !important;
-    }
-
-    .nav-link:hover{
-      font-weight: 700;
-    }
+  
+    
