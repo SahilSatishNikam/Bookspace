@@ -1,0 +1,46 @@
+.font
+{
+    font-family:'Times New Roman', Times, serif;
+}
+.rowling
+{
+     width: 500px;
+     height: 350px;
+     box-shadow: 4px 4px 4px 4px grey;
+     border-radius: 20px 20px 20px 20px;
+}
+.tolkien
+{
+    width: 500px;
+    height: 350px;
+    box-shadow: 4px 4px 4px 4px grey;
+    border-radius: 20px 20px 20px 20px;
+}
+.shakespeare
+{
+    width: 500px;
+    height: 350px;
+    box-shadow: 4px 4px 4px 4px grey;
+    border-radius: 20px 20px 20px 20px;
+}
+.hemingway
+{
+     width: 500px;
+    height: 350px;
+    box-shadow: 4px 4px 4px 4px grey;
+    border-radius: 20px 20px 20px 20px;
+}
+.austen
+{
+    width: 500px;
+    height: 350px;
+    box-shadow: 4px 4px 4px 4px grey;
+    border-radius: 20px 20px 20px 20px;  
+}
+.dickens
+{
+    width: 500px;
+    height: 350px;
+    box-shadow: 4px 4px 4px 4px grey;
+    border-radius: 20px 20px 20px 20px; 
+}
