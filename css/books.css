@@ -5,6 +5,10 @@
 {
     box-shadow: 4px 4px 4px 4px grey;
     border-radius: 10px 10px 10px 10px;
-    height: 480px;
-    width: 300px;
-} 
+
+}
+
+
+.science1{
+  -webkit-column-width: 100%;
+}

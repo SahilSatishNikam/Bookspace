@@ -1,82 +1,492 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
+    <title>Science Books</title>
+    <link href="css/bookspace.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/booklist.css">
+    <link href="css/books.css" rel="stylesheet">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet">
+  </head>
+  <body>
     <!--  Navbar Start -->
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm ">
+          <div class="container">
+
+            <!-- Brand (Logo + Name) -->
+            <!-- Brand (Logo + Name) -->
+            <a class="navbar-brand d-flex align-items-center fw-bold" href="#">
+              <i class="fa-solid fa-book"></i>Book Space
+            </a>
+
+            <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu Items -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-3">
+                <!-- ms-3 adds small spacing after logo -->
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page"
+                    href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#"
+                    id="authorsDropdown"
+                    role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Authors
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="authorsDropdown">
+                    <li><a class="dropdown-item" href="rowling.html">J.K.
+                        Rowling</a></li>
+                    <li><a class="dropdown-item" href="tolkien.html">J.R.R.
+                        Tolkien</a></li>
+                    <li><a class="dropdown-item" href="shakespeare.html">William
+                        Shakespeare</a></li>
+                    <li><a class="dropdown-item" href="hemingway.html">Ernest
+                        Hemingway</a></li>
+                    <li><a class="dropdown-item" href="austen.html">Jane
+                        Austen</a></li>
+                    <li><a class="dropdown-item" href="dickens.html">Charles
+                        Dickens</a></li>
+                    <li><a class="dropdown-item" href="orwell.html">George
+                        Orwell</a></li>
+                    <li><a class="dropdown-item"
+                        href="chattopadhyay.html">Bankim Chandra
+                        Chattopadhyay</a></li>
+                    <li><a class="dropdown-item" href="narayan.html">R. K.
+                        Narayan</a></li>
+                    <li><a class="dropdown-item" href="desai.html">Kiran
+                        Desai</a></li>
+                    <li><a class="dropdown-item" href="christie.html">Agatha
+                        Christie</a></li>
+                    <li><a class="dropdown-item" href="tagore.html">Rabindranath
+                        Tagore</a></li>
+                    <li><a class="dropdown-item" href="roy.html">Arundhati
+                        Roy</a></li>
+                    <li><a class="dropdown-item" href="gosh.html">Amitav
+                        Ghosh</a></li>
+                    <li><a class="dropdown-item" href="tharoor.html">Shashi
+                        Tharoor</a></li>
+                    <li><a class="dropdown-item" href="anita.html">Anita
+                        Desai</a></li>
+                    <li><a class="dropdown-item" href="pattanaik.html">Devdutt
+                        Pattanaik</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="books.html">Books</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="nav-item">
+              <ul class="navbar-nav ms-3">
+                <li class="nav-item">
+                  <a class="nav-link " href="login.html">Login</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+
+        <!-- navbar End -->
+        <main>
+          <section>
+            <div class="container">
+              <div class="row mb-2">
+                <div class="col-md-6 fictionbook1 image mt-5 mb-5">
+                  <div class="row">
+                    <div class="col-md-6 mt-3 mb-3">
+                      <img src="images/imperorofallmaladies.s01.jpg"
+                        class="img-fluid science1">
+                    </div>
+                    <div class="col-md-6 mt-5">
+                      <h5>The Emperor of All Maladies</h5>
+                      The Emperor of All Maladies: A Biography of Cancer by
+                      Siddhartha Mukherjee is a Pulitzer Prize-winning book
+                      published in 2010.
+                      It traces the history of cancer from its earliest
+                      documented cases to modern treatments.
+                      Mukherjee, an oncologist, blends medical science with
+                      patient stories and personal reflections.
+                      The book explores the evolution of cancer research,
+                      therapies, and public perception.
+                      A powerful narrative, it humanizes cancer while providing
+                      deep scientific insight.<br><Br>
+                      <button type="button" class="btn btn-primary mt-2 "
+                        data-bs-toggle="modal"
+                        data-bs-target="#emperorofallmaladies">More
+                        Info</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 fictionbook1 image mt-5 mb-5">
+                  <div class="row">
+                    <div class="col-md-6 mt-3 mb-3">
+                      <img src="images/oxygen.s5.jpg"
+                        class="img-fluid science1">
+                    </div>
+                    <div class="col-md-6 mt-3 mb-3">
+                      <h5>Oxygen Advantages</h5>
+                      The Oxygen Advantage by Patrick McKeown teaches that most
+                      people over-breathe, reducing oxygen efficiency and
+                      harming health.
+                      It emphasizes nasal, light, and slow breathing to improve
+                      oxygen delivery using the Bohr Effect.
+                      Key tools like the BOLT score help track breathing
+                      efficiency and progress.
+                      Breath-holding and simulated altitude training improve
+                      endurance, focus, and red blood cell production.
+                      The book links better breathing to reduced anxiety, asthma
+                      relief, improved sleep, and athletic performance.
+                      Its methods are practical, science-based, and suitable for
+                      both athletes and everyday people.<br><br>
+                      <button type="button" class="btn btn-primary mt-2 "
+                        data-bs-toggle="modal"
+                        data-bs-target="#oxygen">More
+                        Info</button>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6 fictionbook1 image mt-5 mb-5">
+                  <div class="row">
+                    <div class="col-md-6 mt-3 mb-3">
+                      <img src="images/blood.s3.jpg"
+                        class="img-fluid science1">
+                    </div>
+                    <div class="col-md-6 mt-3 mb-3">
+                      <h5>Blood</h5>
+                      The Science, Medicine, and Mythology of Menstruation by
+                      Dr. Jen Gunter was published in January 2024.
+                      It aims to debunk myths and stigma around menstruation
+                      using clear, evidence-based science.
+                      Dr. Gunter explains the biology of periods, hormonal
+                      cycles, and common menstrual disorders.
+                      She addresses topics like PMS, PCOS, endometriosis, period
+                      products, and misinformation online.
+                      The book challenges the cultural shame around menstruation
+                      and criticizes patriarchal health narratives.
+                      Written in a bold, witty style, it empowers readers to
+                      understand and advocate for their own health.<br><br>
+                      <button type="button" class="btn btn-primary mt-2 "
+                        data-bs-toggle="modal"
+                        data-bs-target="#blood">More
+                        Info</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 fictionbook1 image mt-5 mb-5">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="images/breathbecomeair.s2.jpg"
+                        class="img-fluid mt-3 mb-3 science1">
+                    </div>
+                    <div class="col-md-6 mt-3 mb-3">
+                      <h5>When Breath Becomes Air</h5>
+                      When Breath Becomes Air is a memoir by Dr. Paul Kalanithi,
+                      published in 2016 after his death from lung cancer.
+                      The book chronicles his journey from literature student to
+                      neurosurgeon to terminally ill patient.
+                      It explores themes of mortality, purpose, and what makes
+                      life meaningful.
+                      Kalanithi reflects on the doctor-patient relationship from
+                      both sides.
+                      The writing is philosophical, emotional, and deeply
+                      personal.
+                      An epilogue by his wife Lucy adds closure and honors his
+                      legacy.<br><br>
+                      <button type="button" class="btn btn-primary mt-2 "
+                        data-bs-toggle="modal"
+                        data-bs-target="#breathbecomeair">More
+                        Info</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6 fictionbook1 image mt-5 mb-5">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="images/breath.s4.jpg"
+                        class="img-fluid mt-3 mb-3 science1">
+                    </div>
+                    <div class="col-md-6 mt-3 mb-3">
+                      <h5> Breath</h5>
+                      The book highlights the importance of nasal breathing,
+                      slow and deep breaths for better health.
+                      Nestor combines ancient breathing practices with modern
+                      scientific research.
+                      He shares personal experiments showing how changing
+                      breathing habits improves sleep, anxiety, and athletic
+                      performance.
+                      The book reveals connections between breathing and
+                      conditions like asthma and sleep apnea.
+                      Written in an engaging style, it’s inspired a global
+                      resurgence of interest in breathwork.<br><br>
+
+                      <button type="button" class="btn btn-primary mt-2 "
+                        data-bs-toggle="modal"
+                        data-bs-target="#breath">More
+                        Info</button>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="col-md-6 fictionbook1 image mt-5 mb-5">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="images/jaws.s6.jpg"
+                        class="img-fluid mt-3 mb-3 science1">
+                    </div>
+                    <div class="col-md-6 mt-3 mb-3">
+                      <h5>Jaws</h5>
+                      The Story of a Hidden Epidemic by Sandra Kahn and Paul R.
+                      Ehrlich reveals how modern habits like soft diets and
+                      mouth breathing have led to underdeveloped jaws and
+                      widespread health issues. The book explains that poor jaw
+                      growth contributes to crooked teeth, sleep apnea, bad
+                      posture, and even impaired brain function. It highlights
+                      the evolutionary mismatch between our current environment
+                      and the natural needs of jaw development.Instead, they
+                      advocate for
+                      natural solutions like proper chewing, nasal breathing,
+                      and correct tongue posture. Blending science and clinical
+                      insight, the book calls for early, preventive action to
+                      combat this "hidden epidemic."<br><br>
+                      <button type="button" class="btn btn-primary mt-2 "
+                        data-bs-toggle="modal"
+                        data-bs-target="#jaws">More
+                        Info</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6 fictionbook1 image mt-5 mb-5">
+                  <div class="row">
+                    <div class="col-md-6 mb-3 mt-3">
+                      <img src="images/whywesleep.s7.jpg"
+                        class="img-fluid science1">
+                    </div>
+                    <div class="col-md-6 mt-3 mb-3">
+                      <h5>Why We Sleep</h5>
+                      Neuroscientist and sleep expert Matthew Walker provides a
+                      revolutionary exploration of sleep, examining how it
+                      affects every aspect of our physical and mental
+                      well-being. Charting the most cutting-edge scientific
+                      breakthroughs, and marshalling his decades of research and
+                      clinical practice, Walker explains how we can harness
+                      sleep to improve learning, mood and energy levels,
+                      regulate hormones, prevent cancer, Alzheimer's and
+                      diabetes, slow the effects of aging, and increase
+                      longevity. He also provides actionable steps towards
+                      getting a better night's sleep every night.<br><br>
+                      <button type="button" class="btn btn-primary mt-2 "
+                        data-bs-toggle="modal"
+                        data-bs-target="#whywesleep">More
+                        Info</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 fictionbook1 image mt-5 mb-5">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="images/goodenergy.s8.jpg"
+                        class="img-fluid mt-3 mb-3 science1">
+                    </div>
+                    <div class="col-md-6 mt-3 mb-3">
+                      <h5>Good Energy</h5>
+                      The book explains how good metabolic health—“Good
+                      Energy”-is key to preventing chronic diseases.
+                      It highlights six eating principles focusing on whole
+                      foods, balanced nutrients, and meal timing.
+                      Regular movement and varied exercise support energy
+                      production and overall health.
+                      Quality sleep and aligning with natural circadian rhythms
+                      are crucial for metabolic function.
+                      Managing stress and cultivating a fearless, positive
+                      mindset improve mental and physical well-being.
+                      A practical four-week plan helps readers apply these
+                      habits for lasting vitality and health.<br><br>
+                      <button type="button" class="btn btn-primary mt-2 "
+                        data-bs-toggle="modal"
+                        data-bs-target="#goodenergy">More
+                        Info</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6 fictionbook1 image mt-5 mb-5">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="images/blindspots.s9.jpg"
+                        class="img-fluid mt-3 mb-3 science1">
+                    </div>
+                    <div class="col-md-6 mt-3 mb-3">
+                      <h5>Blind Spots</h5>
+                      In Blind Spots, Dr. Marty Makary examines how systemic
+                      issues in modern medicine—such as groupthink, bias, and
+                      resistance to new evidence—have led to public health
+                      missteps. He highlights examples like the opioid crisis,
+                      the peanut allergy epidemic, and the overuse of
+                      antibiotics to illustrate how medical dogma can hinder
+                      progress. Makary advocates for a more transparent,
+                      evidence-based approach to healthcare, encouraging both
+                      professionals and patients to question established norms
+                      and seek out the underlying science behind medical
+                      recommendations.<br><br>
+                      <button type="button" class="btn btn-primary mt-2 "
+                        data-bs-toggle="modal"
+                        data-bs-target="#blindspots">More
+                        Info</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 fictionbook1 image mt-5 mb-5">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="images/followthescience.s10.jpg"
+                        class="img-fluid mt-3 mb-3 science1">
+                    </div>
+                    <div class="col-md-6 mt-3 mb-3">
+                      <h5> Follow the Science</h5>
+                      In Follow the Science, Sharyl Attkisson delves into the
+                      intricate relationships between the pharmaceutical
+                      industry, government agencies, and the media. She examines
+                      how these entities often prioritize profits over public
+                      health, leading to misinformation and compromised medical
+                      practices. Attkisson presents case studies and
+                      investigative findings to highlight instances where
+                      scientific data has been manipulated or suppressed, urging
+                      readers to critically assess the information presented as
+                      "scientific consensus."<br><br>
+                      <button type="button" class="btn btn-primary mt-2 "
+                        data-bs-toggle="modal"
+                        data-bs-target="#followthescience">More
+                        Info</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        </main>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+
+      </body>
+
+      <!--  Footer start-->
+      <footer class="bg-dark text-light pt-5 pb-3 mt-5">
         <div class="container">
+          <div class="row">
 
-          <!-- Brand (Logo + Name) -->
-          <a class="navbar-brand d-flex align-items-center fw-bold" href="#">
-            <img src="images/booklogo.jpeg" alt="Logo" width="35" height="30"
-              class="me-2">
-            Book Space
-          </a>
+            <!-- About Section -->
+            <div class="col-md-4 mb-4">
+              <h5 class="fw-bold">Book Space</h5>
+              <p class="small">
+                Your ultimate destination to explore, read, and connect with the
+                world of books.
+              </p>
+            </div>
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+            <!-- Quick Links -->
+            <div class="col-md-2 mb-4">
+              <h6 class="fw-bold">Quick Links</h6>
+              <ul class="list-unstyled">
+                <li><a href="index.html"
+                    class="text-light text-decoration-none small">Home</a></li>
+                <li><a href="about.html"
+                    class="text-light text-decoration-none small">About
+                    Us</a></li>
+                <li><a href="books.html"
+                    class="text-light text-decoration-none small">Books</a></li>
+                <li><a href="contact.html"
+                    class="text-light text-decoration-none small">Contact</a></li>
+              </ul>
+            </div>
 
-          <!-- Menu Items -->
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-3">
-              <!-- ms-3 adds small spacing after logo -->
-              <li class="nav-item">
-                <a class="nav-link " aria-current="page"
-                  href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About Us</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#"
-                  id="authorsDropdown"
-                  role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Authors
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="authorsDropdown">
-                   <li><a class="dropdown-item" href="rowling.html">J.K. Rowling</a></li>
-              <li><a class="dropdown-item" href="tolkien.html">J.R.R. Tolkien</a></li>
-              <li><a class="dropdown-item" href="shakespeare.html">William Shakespeare</a></li>
-              <li><a class="dropdown-item" href="hemingway.html">Ernest Hemingway</a></li>
-              <li><a class="dropdown-item" href="austen.html">Jane Austen</a></li>
-              <li><a class="dropdown-item" href="dickens.html">Charles Dickens</a></li>
-              <li><a class="dropdown-item" href="orwell.html">George Orwell</a></li>
-              <li><a class="dropdown-item" href="chattopadhyay.html">Bankim Chandra Chattopadhyay</a></li>
-              <li><a class="dropdown-item" href="narayan.html">R. K. Narayan</a></li>
-              <li><a class="dropdown-item" href="desai.html">Kiran Desai</a></li>
-              <li><a class="dropdown-item" href="christie.html">Agatha Christie</a></li>
-              <li><a class="dropdown-item" href="tagore.html">Rabindranath Tagore</a></li>
-              <li><a class="dropdown-item" href="roy.html">Arundhati Roy</a></li>
-              <li><a class="dropdown-item" href="gosh.html">Amitav Ghosh</a></li>
-              <li><a class="dropdown-item" href="tharoor.html">Shashi Tharoor</a></li>
-              <li><a class="dropdown-item" href="anita.html">Anita Desai</a></li>
-              <li><a class="dropdown-item" href="pattanaik.html">Devdutt Pattanaik</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="books.html">Books</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " href="FAQ's.html">FAQ's</a>
-              </li>
-            </ul>
+            <!-- Support -->
+            <div class="col-md-3 mb-4">
+              <h6 class="fw-bold">Support</h6>
+              <ul class="list-unstyled">
+                <li><a href="#"
+                    class="text-light text-decoration-none small">FAQs</a></li>
+                <li><a href="#"
+                    class="text-light text-decoration-none small">Help
+                    Center</a></li>
+                <li><a href="#"
+                    class="text-light text-decoration-none small">Terms
+                    & Conditions</a></li>
+                <li><a href="#"
+                    class="text-light text-decoration-none small">Privacy
+                    Policy</a></li>
+              </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="col-md-3 mb-4">
+              <h6 class="fw-bold">Contact Us</h6>
+              <p class="small mb-1"><i class="bi bi-geo-alt-fill me-2"></i>
+                Pune,
+                India</p>
+              <p class="small mb-1"><i class="bi bi-telephone-fill me-2"></i>
+                +91
+                7666283439</p>
+              <p class="small"><i class="bi bi-envelope-fill me-2"></i>
+                rushirasal2679@gmail.com</p>
+
+              <!-- Social Icons -->
+              <div class="mt-2">
+                <a href="https://github.com/DineshRasal"
+                  class="text-light me-3"><i
+                    class="bi bi-github"></i>
+                  <a href="https://www.instagram.com/rushya19_/"
+                    class="text-light me-3"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/dinesh-rasal-973481284/"
+                    class="text-light"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Copyright -->
+            <div class="text-center border-top border-secondary pt-3">
+              <p class="small mb-0">© 2025 Book Space. All rights reserved.</p>
+            </div>
           </div>
+        </footer>
 
-        </div>
-      </nav>
-    </header>
-</body>
-</html>
+        <!-- Footer End -->
+      </html>
