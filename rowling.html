@@ -12,16 +12,14 @@
 
 </head>
 <body>
-     <!--  Navbar Start -->
+    <!--  Navbar Start -->
 <header>
   <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
-<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm ">
     <div class="container">
       
       <!-- Brand (Logo + Name) -->
       <a class="navbar-brand d-flex align-items-center fw-bold" href="#">
-        <img src="images/booklogo.jpeg" alt="Logo" width="35" height="30" class="me-2">
-        Book Space
+ <i class="fa-solid fa-book"></i>        Book Space
       </a>
 
     
@@ -35,10 +33,10 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ms-3"> <!-- ms-3 adds small spacing after logo -->
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About Us</a>
+            <a class="nav-link active" href="about.html">About Us</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="authorsDropdown" 
@@ -71,21 +69,16 @@
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact Us</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link " href="FAQ's.html">FAQ's</a>
+          </li>
         </ul>
       </div>
 
-      <div class="nav-item">
-       <ul class="navbar-nav ms-3">  
-           <li class="nav-item">
-            <a class="nav-link " href="login.html">Login</a>
-          </li>  
-       </ul>
     </div>
   </nav>
 </header>
-
-
-<!-- navbar End -->
+<!-- Navbar End -->
  <main>
     <section>
         <!-- rowling info start -->
@@ -165,11 +158,36 @@ Founded the Volant Charitable Trust (2000) and co-founded Lumos (2005) to suppor
 </p>
 <p>
 <p><b>Summary Table</b></p>
-<p><b>Early Life</b>    - Born in 1965; studied Classics & French; conceived Harry Potter in 1990.</p>
-<p><b>Key Works</b>	- Harry Potter series; crime novels (as Galbraith); The Casual Vacancy, Cursed Child, The Ickabog.</p>
-<p><b>Honors</b>  - OBE, Companion of Honour, numerous literary awards, honorary degrees.</p>
-<p><b>Philanthropy</b>   - Volant Trust, Lumos, MS research funding, $200M+ giving.</p>
-<p><b>Controversies</b>	- Criticism over transgender-related remarks; podcasts and media response.</p>
+<table aria-describedby="bio-desc">
+      <thead>
+        <tr>
+          <th scope="col">Category</th>
+          <th scope="col">Highlights</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td data-label="Category">Early Life</td>
+          <td data-label="Highlights" class="muted">Born in 1965; studied Classics &amp; French; conceived Harry Potter in 1990.</td>
+        </tr>
+        <tr>
+          <td data-label="Category">Key Works</td>
+          <td data-label="Highlights" class="muted"><em>Harry Potter</em> series; crime novels (as Galbraith); <em>The Casual Vacancy</em>, <em>Cursed Child</em>, <em>The Ickabog</em>.</td>
+        </tr>
+        <tr>
+          <td data-label="Category">Honors</td>
+          <td data-label="Highlights" class="muted">OBE, Companion of Honour, numerous literary awards, honorary degrees.</td>
+        </tr>
+        <tr>
+          <td data-label="Category">Philanthropy</td>
+          <td data-label="Highlights" class="muted">Volant Trust, Lumos, MS research funding, $200M+ giving.</td>
+        </tr>
+        <tr>
+          <td data-label="Category">Controversies</td>
+          <td data-label="Highlights" class="muted">Criticism over transgender-related remarks; podcasts and media response.</td>
+        </tr>
+      </tbody>
+    </table>
 </p>
         </div>
       </div>

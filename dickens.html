@@ -15,13 +15,11 @@
     <!--  Navbar Start -->
 <header>
   <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
-<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm ">
     <div class="container">
       
       <!-- Brand (Logo + Name) -->
       <a class="navbar-brand d-flex align-items-center fw-bold" href="#">
-        <img src="images/booklogo.jpeg" alt="Logo" width="35" height="30" class="me-2">
-        Book Space
+ <i class="fa-solid fa-book"></i>        Book Space
       </a>
 
     
@@ -35,10 +33,10 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ms-3"> <!-- ms-3 adds small spacing after logo -->
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About Us</a>
+            <a class="nav-link active" href="about.html">About Us</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="authorsDropdown" 
@@ -71,19 +69,16 @@
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact Us</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link " href="FAQ's.html">FAQ's</a>
+          </li>
         </ul>
       </div>
 
-      <div class="nav-item">
-       <ul class="navbar-nav ms-3">  
-           <li class="nav-item">
-            <a class="nav-link " href="login.html">Login</a>
-          </li>  
-       </ul>
     </div>
   </nav>
 </header>
-<!-- navbar End -->
+<!-- Navbar End -->
  <main>
   <!-- dickens start -->
     <section>
@@ -94,14 +89,12 @@
                 </div>
                 <div class="col-md-6 mt-5 font">
                     <h3>Charles Dickens: Life, Works & Legacy</h3>
-
-
                     <h5>Biography & Early Life</h5>
                     <p>•Full Name: Charles John Huffam Dickens, born 7 February 1812 in Portsmouth, Hampshire, England. He passed away on 9 June 1870 at Gad’s Hill, near Chatham, Kent.Encyclopedia Britannica+1.</p>
                     <p>•When he was 12, his father was sent to the Marshalsea debtors’ prison, prompting Dickens to work in a blacking factory. Those childhood hardships deeply shaped his empathy and later appear throughout his novels.Encyclopedia BritannicaUniversity of Warwick.</p>
                     <button
                     type="button" class="btn btn-primary"
-                    data-bs-toggle="modal" data-bs-target="#goddess">More
+                    data-bs-toggle="modal" data-bs-target="#charles">More
                     Info</button>
                 </div>
             </div>
@@ -109,7 +102,144 @@
     </section>
     <!-- dickens end -->
  </main>
-    
+    <!-- Modal start -->
+<div class="modal fade" id="charles" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 font" id="exampleModalLabel">Charles Dickens</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="images/Dickens Gurney head pic.jpg" class="img-fluid dickens">
+        </div>
+          <div class="col-md-6 font">
+             <h3>Charles Dickens: Life, Works & Legacy</h3>
+                    <h5>Biography & Early Life</h5>
+                    <p>•Full Name: Charles John Huffam Dickens, born 7 February 1812 in Portsmouth, Hampshire, England. He passed away on 9 June 1870 at Gad’s Hill, near Chatham, Kent.Encyclopedia Britannica+1.</p>
+                    <p>•When he was 12, his father was sent to the Marshalsea debtors’ prison, prompting Dickens to work in a blacking factory. Those childhood hardships deeply shaped his empathy and later appear throughout his novels.Encyclopedia BritannicaUniversity of Warwick.</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="container font">
+<p>
+<b>2. Entry into Journalism & Literary Rise</b>
+Dickens began as a journalism and parliamentary reporter, publishing his early sketches under the pseudonym “Boz.” His collection Sketches by Boz (1836) launched his literary career.Encyclopedia BritannicaBiography
+His first major serialized novel, The Pickwick Papers (1836–37), became a cultural phenomenon, cementing Dickens’s fame and popularizing serial fiction with cliffhangers.WikipediaEncyclopedia Britannica
+</p>
+<p>
+<b>3. Major Literary Works & Themes</b>
+Dickens wrote 15 major novels, numerous short stories, novellas, and edited periodicals like Household Words and All the Year RoundConfinityBiographyCharles Dickens Online.
+<p>Some of his most iconic works include:</p>
+<table aria-describedby="works-desc">
+      <thead>
+        <tr>
+          <th scope="col">Novel</th>
+          <th scope="col">Publication Years</th>
+          <th scope="col">Highlights</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td data-label="Novel"><em>Oliver Twist</em></td>
+          <td data-label="Publication Years" class="muted">1837–1839</td>
+          <td data-label="Highlights" class="muted">A gritty exposé of child exploitation and urban poverty. Wikipedia</td>
+        </tr>
+        <tr>
+          <td data-label="Novel"><em>A Christmas Carol</em></td>
+          <td data-label="Publication Years" class="muted">1843</td>
+          <td data-label="Highlights" class="muted">A powerful tale of redemption and moral transformation. BiblioLifestyle, Encyclopedia Britannica</td>
+        </tr>
+        <tr>
+          <td data-label="Novel"><em>David Copperfield</em></td>
+          <td data-label="Publication Years" class="muted">1850</td>
+          <td data-label="Highlights" class="muted">Semi-autobiographical masterpiece; vivid coming-of-age narrative. BiblioLifestyle, Encyclopedia Britannica</td>
+        </tr>
+        <tr>
+          <td data-label="Novel"><em>Bleak House</em></td>
+          <td data-label="Publication Years" class="muted">1852–1853</td>
+          <td data-label="Highlights" class="muted">Critiques legal system via Jarndyce and Jarndyce lawsuit. Wikipedia</td>
+        </tr>
+        <tr>
+          <td data-label="Novel"><em>Dombey and Son</em></td>
+          <td data-label="Publication Years" class="muted">1846–1848</td>
+          <td data-label="Highlights" class="muted">Themes: social status, arranged marriages, familial dysfunction. Wikipedia</td>
+        </tr>
+        <tr>
+          <td data-label="Novel">Other Key Novels</td>
+          <td data-label="Publication Years" class="muted">—</td>
+          <td data-label="Highlights" class="muted"><em>A Tale of Two Cities</em>, <em>Great Expectations</em>, <em>Little Dorrit</em>, <em>Nicholas Nickleby</em>, <em>Martin Chuzzlewit</em>, <em>Our Mutual Friend</em>, <em>The Old Curiosity Shop</em>, among others. Charles Dickens Online, Confinity</td>
+        </tr>
+        <tr>
+          <td data-label="Novel"><em>The Mystery of Edwin Drood</em></td>
+          <td data-label="Publication Years" class="muted">1870</td>
+          <td data-label="Highlights" class="muted">Final unfinished novel, left incomplete at his death. Wikipedia</td>
+        </tr>
+      </tbody>
+    </table>
+</p>
+<p>
+<b>4. Style, Social Commentary, Influence</b>
+Dickens masterfully blended realism, social critique, humor, and empathetic portrayals of the poor and marginalized.Encyclopedia BritannicaConfinityThe Biography. His own experiences with poverty fueled his focus on child labor, prisons, debt, and the underclass.The New YorkerUniversity of Warwick. With unforgettable characters like Scrooge, Pip, Little Nell, and Inspector Bucket, Dickens combined vivid individual portraits with sweeping societal insights.Encyclopedia BritannicaWIREDThe Guardian
+</p>
+<p>
+<b>5. Personal Life</b>
+Married Catherine Hogarth in 1836; they had 10 children. The marriage ended in separation in 1858.Biography
+Dickens had a long-term relationship with actress Ellen “Nelly” Ternan, and often performed dramatic public readings of his works—a testament to his flair for theatrical storytelling.WIREDThe Guardian
+</p>
+<p>
+<b>6. Legacy & Museum</b>
+Dickens remains one of Victorian England’s greatest novelists, beloved then and now for his storytelling, social conscience, and immortal characters.Encyclopedia BritannicaConfinityThe New Yorker
+The Charles Dickens Museum at 48 Doughty Street, London—his former home—houses over 100,000 artifacts including manuscripts, reading desks, and personal possessions. It celebrates Dickens’s life with exhibitions and events, and marks its centenary in 2025.Financial TimesThe Times
+</p>
+<p>
+<p><b>Summary Table</b></p>
+<table aria-describedby="bio-desc">
+      <thead>
+        <tr>
+          <th scope="col">Category</th>
+          <th scope="col">Highlights</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td data-label="Category">Born / Died</td>
+          <td data-label="Highlights" class="muted">1812–1870</td>
+        </tr>
+        <tr>
+          <td data-label="Category">Career</td>
+          <td data-label="Highlights" class="muted">Reporter → Serialized novelist; magazine editor</td>
+        </tr>
+        <tr>
+          <td data-label="Category">Notable Works</td>
+          <td data-label="Highlights" class="muted"><em>The Pickwick Papers</em>, <em>Oliver Twist</em>, <em>A Christmas Carol</em>, <em>David Copperfield</em>, <em>Bleak House</em>, <em>Great Expectations</em>, <em>The Mystery of Edwin Drood</em> (unfinished)</td>
+        </tr>
+        <tr>
+          <td data-label="Category">Themes & Style</td>
+          <td data-label="Highlights" class="muted">Realism, social critique, serialized storytelling, memorable characters, empathy</td>
+        </tr>
+        <tr>
+          <td data-label="Category">Personal Life</td>
+          <td data-label="Highlights" class="muted">Married Catherine Hogarth; 10 children; separated; relationship with Nelly Ternan; public readings</td>
+        </tr>
+      </tbody>
+    </table>
+  </p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model end -->
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 <!--  Footer start-->
 <footer class="bg-dark text-light pt-5 pb-3 mt-5">

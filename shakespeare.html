@@ -15,13 +15,11 @@
     <!--  Navbar Start -->
 <header>
   <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
-<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm ">
     <div class="container">
       
       <!-- Brand (Logo + Name) -->
       <a class="navbar-brand d-flex align-items-center fw-bold" href="#">
-        <img src="images/booklogo.jpeg" alt="Logo" width="35" height="30" class="me-2">
-        Book Space
+ <i class="fa-solid fa-book"></i>        Book Space
       </a>
 
     
@@ -35,10 +33,10 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ms-3"> <!-- ms-3 adds small spacing after logo -->
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About Us</a>
+            <a class="nav-link active" href="about.html">About Us</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="authorsDropdown" 
@@ -71,19 +69,16 @@
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact Us</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link " href="FAQ's.html">FAQ's</a>
+          </li>
         </ul>
       </div>
 
-      <div class="nav-item">
-       <ul class="navbar-nav ms-3">  
-           <li class="nav-item">
-            <a class="nav-link " href="login.html">Login</a>
-          </li>  
-       </ul>
     </div>
   </nav>
 </header>
-<!-- navbar End -->
+<!-- Navbar End -->
  <main>
   <!-- shakespeare start -->
     <section>
@@ -170,11 +165,36 @@ Despite occasional theories questioning authorship, mainstream scholarship suppo
 </p>
 <p>
 <p><b>Summary Table</b></p>
-<p><b>Born</b>    - Died	Baptized 26 Apr 1564; died 23 Apr 1616</p>
-<p><b>Family</b>	- Married Anne Hathaway; 3 children (Susanna, Hamnet, Judith)</p>
-<p><b>Career</b>  - Actor, playwright, partner in theatrical company & Globe Theatre</p>
-<p><b>Works</b>   - 39 plays, 154 sonnets, narrative poems</p>
-<p><b>Legacy</b>	- Preeminent English playwright; linguistic innovator</p>
+<table aria-describedby="bio-desc">
+      <thead>
+        <tr>
+          <th scope="col">Category</th>
+          <th scope="col">Details</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td data-label="Category">Born / Died</td>
+          <td data-label="Details" class="muted">Baptized 26 Apr 1564; died 23 Apr 1616</td>
+        </tr>
+        <tr>
+          <td data-label="Category">Family</td>
+          <td data-label="Details" class="muted">Married Anne Hathaway; 3 children (Susanna, Hamnet, Judith)</td>
+        </tr>
+        <tr>
+          <td data-label="Category">Career</td>
+          <td data-label="Details" class="muted">Actor, playwright, partner in theatrical company &amp; Globe Theatre</td>
+        </tr>
+        <tr>
+          <td data-label="Category">Works</td>
+          <td data-label="Details" class="muted">~39 plays, 154 sonnets, narrative poems</td>
+        </tr>
+        <tr>
+          <td data-label="Category">Legacy</td>
+          <td data-label="Details" class="muted">Preeminent English playwright; linguistic innovator</td>
+        </tr>
+      </tbody>
+    </table>
 </p>
         </div>
       </div>
