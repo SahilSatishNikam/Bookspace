@@ -8,9 +8,68 @@
     <link rel="stylesheet" href="css/booklist.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
 
 </head>
+<style>
+  .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+
+.about-section, .story-section {
+  font-family: "Segoe UI", Roboto, sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  line-height: 1.7;
+}
+
+.about-img, .story-img {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.about-img:hover, .story-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.hover-box {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hover-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+.card img {
+  height: 250px;
+  object-fit: cover;
+}
+
+
+</style>
 <body>    <!--  Navbar Start -->
 <header>
   <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
@@ -79,56 +138,172 @@
 </header>
 <!-- Navbar End -->
 
+<!-- About Us -->
 
-  <section>
+
+<!-- Our Story -->
+<section class="story-section py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center flex-md-row-reverse">
+      <!-- Image -->
+      <div class="col-md-5 text-center mb-4 mb-md-0">
+        <img src="images/vision.jpg" alt="Our Story" class="img-fluid rounded-4 shadow-lg story-img">
+      </div>
+      <!-- Text -->
+      <div class="col-md-7">
+        <h1 class="fw-bold text-primary mb-4">📝 Our Story</h1>
+        <p class="text-muted lead">
+          Our story began with a simple idea — to make reading and learning easier in the digital age.
+        </p>
+        <p class="text-muted">
+          Traditional libraries are rich in knowledge but limited by time, place, and accessibility. We wanted to break those barriers by creating a smart, online library catalog where books and information can be accessed anytime, anywhere.
+        </p>
+        <p class="text-muted">
+          By blending <span class="fw-bold">technology with knowledge</span>, BookSpace transforms the library experience into a modern, convenient, and inspiring digital space for students, researchers, and book lovers alike.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
         <div class="container mt-5">
-            <div class="row">
-                <div class="col-md-7">
-                    <h1 class="fw-bold text-primary mb-4">About US</h1>
-                    <p>Welcome to our Online Library Catalog, your one-stop destination for exploring a vast collection of books across genres like Fiction, Science, History, and more. Our mission is to make reading simple, accessible, and enjoyable for everyone by providing detailed book information, author insights, and easy navigation. Whether you are a student, researcher, or casual reader, our catalog helps you quickly find the right book and discover new favorites. We provide a well-structured collection across multiple genres, enabling students, researchers, and readers to find the right book with ease. Our catalog is designed to save time, improve accessibility, and make reading a seamless experience for everyone.</p>
-                    
-                </div>
-                <div class="col-md-5">
-                    <img src="images/img1.webp" alt="img" class="img-fluid rounded-4 shadow-lg">
-                </div>
-            </div>
-        </div>
+  <div class="row g-4">
+    <!-- Mission -->
+    <div class="col-md-4">
+      <div class="card shadow-lg border-0 h-100 text-center p-4 rounded-4 card-hover">
+        <h1 class="fw-bold text-primary mb-3">🌍 Our Mission</h1>
+        <p class="text-muted">
+          Since 2025, our mission has been to make books and knowledge easily accessible through a smart online library catalog. We provide quick search, organized categories, and detailed author information to guide readers. Our platform supports students, researchers, and book lovers in their learning journey. We are committed to continuous growth, expanding our collection to inspire curiosity and lifelong learning.
+        </p>
+      </div>
+    </div>
+
+    <!-- History -->
+    <div class="col-md-4">
+      <div class="card shadow-lg border-0 h-100 text-center p-4 rounded-4 card-hover">
+        <h1 class="fw-bold text-primary mb-3">📚 History Of Books</h1>
+        <p class="text-muted">
+          The history of books is a journey of human knowledge and creativity that began around 3000 BCE with clay tablets in Mesopotamia. Egyptians developed papyrus scrolls, Greeks and Romans used parchment, and in the Middle Ages monks created handwritten manuscripts. Gutenberg’s printing press in the 15th century transformed access to knowledge. Today, books thrive in both print and digital forms, inspiring readers worldwide.
+        </p>
+      </div>
+    </div>
+
+    <!-- Vision -->
+    <div class="col-md-4">
+      <div class="card shadow-lg border-0 h-100 text-center p-4 rounded-4 card-hover">
+        <h1 class="fw-bold text-primary mb-3">🚀 Our Vision</h1>
+        <p class="text-muted">
+          Since 2025, our vision has been to create a digital library catalog that makes knowledge accessible to everyone, anywhere in the world. We aim to inspire a culture of reading and lifelong learning through a simple and user-friendly platform. By connecting readers with ideas, authors, and subjects, we bridge the gap between traditional libraries and modern technology for future generations.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
     </section>
-    
-    <section>
-        <div class="container mt-7 mt-4">
-            <div class="row">
-                <div class="col-md-7 mt-3">
-                    
-                    <img src="images/vision.jpg" alt="img" class="img-fluid rounded-4 shadow-lg">
-                    
-                </div>
-                <div class="col-md-5">
-                    <h1 class="fw-bold text-primary mb-4">Our Story</h1>
-                    <p>Our story began with a simple idea — to make reading and learning easier in the digital age. Traditional libraries are rich in knowledge, but they are often limited by time, place, and accessibility. We wanted to break those barriers by creating a smart, online library catalog where books and information can be accessed anytime, anywhere. By focusing on digital solutions, we bring together technology and knowledge to help students, researchers, and book lovers discover what they need with just a few clicks. Our journey is about transforming the library experience into a modern, convenient, and inspiring digital space.</p>
-                </div>
-            </div>
+
+
+
+
+    <!-- About Us -->
+<section class="about-us py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Text -->
+      <div class="col-lg-6">
+        <h2 class="fw-bold text-primary mb-4">About Us</h2>
+        <p class="text-muted">
+          Welcome to <strong>BookSpace</strong>, your digital gateway to knowledge and imagination. 
+          Our online library catalog is designed to make reading simple, accessible, and inspiring 
+          for everyone. From fiction to research, our well-structured collection helps students, 
+          researchers, and readers find exactly what they need.
+        </p>
+        <p class="text-muted">
+          Established in <strong>2025</strong>, BookSpace goes beyond just being a catalog. 
+          We’re building a community where readers and authors connect, ideas are exchanged, 
+          and lifelong learning is encouraged.
+        </p>
+      </div>
+      <!-- Image -->
+      <div class="col-lg-6 text-center">
+        <img src="images/img1.webp" alt="About BookSpace" class="img-fluid rounded-4 shadow-lg">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Why Choose Us -->
+<section class="why-choose py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="fw-bold text-primary mb-5">Why Choose Us?</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="p-4 rounded-4 shadow-sm bg-white h-100 hover-box">
+          <h3 class="fw-semibold">📖 Vast Collection</h3>
+          <p class="text-muted">Explore thousands of books across genres, authors, and subjects in one place.</p>
         </div>
-    </section>
-    <section >
-        <div class="container mt-5">
-            <div class="row text-center">
-                <div class="col-md-3  p-4  h-100">
-                    <h1 class="fw-bold text-primary mb-4">Our Mission</h1>
-                    <p>Since 2025, our mission has been to make books and knowledge easily accessible through a smart online library catalog. We provide quick search, organized categories, and detailed author information to guide readers. Our platform supports students, researchers, and book lovers in their learning journey. We are committed to continuous growth, expanding our collection to inspire curiosity and lifelong learning.</p> </div>
-                <div class="col-md-6  p-4   h-100">
-                   <h1 class="fw-bold text-primary mb-4">Histroy Of Books</h1>
-                   <p>The history of books is a journey of human knowledge and creativity that began around 3000 BCE with clay tablets in Mesopotamia. Ancient Egyptians later developed papyrus scrolls, while Greeks and Romans advanced the use of parchment and codices, which were easier to handle. During the Middle Ages, books were handwritten often decorated with beautiful illustrations by monks in monasteries. The invention of paper in China around the 2nd century CE further revolutionized bookmaking. A major transformation occurred in the 15th century when Johannes Gutenberg introduced the printing press, making books affordable and accessible to the masses.  science, and literature across Europe. Over centuries, printed books became the foundation of libraries and learning worldwide. In the 20th century, the introduction of paperback editions made reading even more convenient. Today, books exist not only in print but also in digital formats like e-books and audiobooks. </p>
-                </div>
-                <div class="col-md-3 p-4 h-100">
-                    <h1 class="fw-bold text-primary mb-4">Our Vision</h1>
-                    <p>Since 2025, our vision has been to create a digital library catalog that makes knowledge accessible to everyone, anywhere in the world. We aim to inspire a culture of reading and lifelong learning through a simple and user-friendly platform. By  authors, and subjects, we connect readers with ideas that shape minds and societies. Our vision is to bridge the gap between traditional libraries and modern technology for future generations.</p>
-                </div>
-                
-                
-            </div>
+      </div>
+      <div class="col-md-4">
+        <div class="p-4 rounded-4 shadow-sm bg-white h-100 hover-box">
+          <h3 class="fw-semibold">⚡ Quick Search</h3>
+          <p class="text-muted">Find your desired book instantly with our smart and easy-to-use search system.</p>
         </div>
-    </section>
+      </div>
+      <div class="col-md-4">
+        <div class="p-4 rounded-4 shadow-sm bg-white h-100 hover-box">
+          <h3 class="fw-semibold">🌍 Anywhere, Anytime</h3>
+          <p class="text-muted">Access our catalog 24/7 from any device, whether at home, school, or on the go.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Our Team -->
+<section class="team py-5">
+  <div class="container text-center">
+    <h2 class="fw-bold text-primary mb-5">Meet Our Team</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card shadow border-0 rounded-4">
+          <img src="images/team1.jpg" class="card-img-top rounded-top-4" alt="Team Member">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Sarah Johnson</h5>
+            <p class="text-muted">Founder & CEO</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow border-0 rounded-4">
+          <img src="images/team2.jpg" class="card-img-top rounded-top-4" alt="Team Member">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">David Lee</h5>
+            <p class="text-muted">Technical Head</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow border-0 rounded-4">
+          <img src="images/team3.jpg" class="card-img-top rounded-top-4" alt="Team Member">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Emily Davis</h5>
+            <p class="text-muted">Content Curator</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Join Us CTA -->
+<section class="join-us py-5 bg-primary text-white text-center">
+  <div class="container">
+    <h2 class="fw-bold mb-3">Join the BookSpace Community 📚</h2>
+    <p class="mb-4">Be part of a growing digital library that connects readers and learners worldwide.</p>
+    <a href="#signup" class="btn btn-light btn-lg rounded-3 shadow">Get Started</a>
+  </div>
+</section>
+
 
          <script src="js/bootstrap.bundle.min.js"></script>
 </body>
