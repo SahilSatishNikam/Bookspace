@@ -64,8 +64,15 @@ p {
   box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }
 .card img {
-  height: 250px;
+  height: 400px;
   object-fit: cover;
+  border-radius: 50%;
+}
+
+.team-img {
+  height: 200px; /* fixed height */
+  object-fit: cover; /* crop & cover image */
+    border-radius: 50%;
 }
 
 
@@ -212,13 +219,13 @@ p {
       <!-- Text -->
       <div class="col-md-7">
         <h2 class="fw-bold text-primary mb-4">About Us</h2>
-        <p class="text-muted">
+        <p class="text-muted ">
           Welcome to <strong>BookSpace</strong>, your digital gateway to knowledge and imagination. 
           Our online library catalog is designed to make reading simple, accessible, and inspiring 
           for everyone. From fiction to research, our well-structured collection helps students, 
           researchers, and readers find exactly what they need.
         </p>
-        <p class="text-muted">
+        <p class="text-muted ">
           Established in <strong>2025</strong>, BookSpace goes beyond just being a catalog. 
           We’re building a community where readers and authors connect, ideas are exchanged, 
           and lifelong learning is encouraged.
@@ -264,36 +271,47 @@ p {
   <div class="container text-center">
     <h2 class="fw-bold text-primary mb-5">Meet Our Team</h2>
     <div class="row g-4">
-      <div class="col-md-4">
-        <div class="card shadow border-0 rounded-4">
-          <img src="images/team1.jpg" class="card-img-top rounded-top-4" alt="Team Member">
+      <!-- Card 1 -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card shadow border-0 rounded-4 h-100">
+          <img src="images/Dinesh.JPG" class="card-img-top rounded-top-4 team-img" alt="Team Member">
           <div class="card-body">
-            <h5 class="card-title fw-bold">Sarah Johnson</h5>
-            <p class="text-muted">Founder & CEO</p>
+            <h5 class="card-title fw-bold">Dinesh Rasal</h5>
           </div>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="card shadow border-0 rounded-4">
-          <img src="images/team2.jpg" class="card-img-top rounded-top-4" alt="Team Member">
+      <!-- Card 2 -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card shadow border-0 rounded-4 h-100">
+          <img src="images/team2.jpg" class="card-img-top rounded-top-4 team-img" alt="Team Member">
           <div class="card-body">
-            <h5 class="card-title fw-bold">David Lee</h5>
-            <p class="text-muted">Technical Head</p>
+            <h5 class="card-title fw-bold">Sahil Nikam</h5>
+            
           </div>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="card shadow border-0 rounded-4">
-          <img src="images/team3.jpg" class="card-img-top rounded-top-4" alt="Team Member">
+      <!-- Card 3 -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card shadow border-0 rounded-4 h-100">
+          <img src="images/team3.jpg" class="card-img-top rounded-top-4 team-img" alt="Team Member">
           <div class="card-body">
             <h5 class="card-title fw-bold">Emily Davis</h5>
-            <p class="text-muted">Content Curator</p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card shadow border-0 rounded-4 h-100">
+          <img src="images/team4.jpg" class="card-img-top rounded-top-4 team-img" alt="Team Member">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">John Smith</h5>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
+
 
 <!-- Join Us CTA -->
 <section class="join-us py-5 bg-primary text-white text-center">
