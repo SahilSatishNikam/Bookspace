@@ -161,3 +161,10 @@
         margin-bottom:6px;
       }
     }
+    .about
+    {
+       width: 500px;
+    height: 350px;
+    box-shadow: 4px 4px 4px 4px grey;
+    border-radius: 20px 20px 20px 20px;
+    }
