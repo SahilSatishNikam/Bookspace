@@ -90,7 +90,7 @@
   .feedback-card {
     opacity: 0;
     transform: translateY(40px);
-    animation: fadeUp 1s ease forwards;+
+    animation: fadeUp 1s ease forwards;
   }
 
   /* Delay each card */
